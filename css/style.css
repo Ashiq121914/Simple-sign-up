@@ -1,0 +1,93 @@
+/* common css class */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* custom css */
+.sign-up-section {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 75%;
+
+  margin: 20px 0;
+  padding: 35px;
+}
+.make-card {
+  box-shadow: 0 29px 52px rgba(0, 0, 0, 0.4), 0 25px 16px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+.left-side {
+  width: 45%;
+  padding-right: 55px;
+  padding-left: 20px;
+}
+.animation-dot {
+  /* Copy code to element you want to animate */
+  width: 15px;
+  height: 15px;
+  border-radius: 20px;
+  background-color: #ff743d;
+}
+.log-in {
+  color: #ff743d;
+  text-decoration: none;
+}
+
+.right-side {
+  width: 55%;
+}
+.border-color {
+  border: 1px solid #ff743d;
+}
+.btn-bg {
+  background-color: #ff743d;
+  color: white;
+}
+.img-size {
+  height: 600px;
+}
+
+.form-control:focus {
+  border-color: #ff743d;
+  box-shadow: none;
+}
+.form-select {
+  display: block;
+  width: 40%;
+  padding: 0.375rem 2.25rem 0.375rem 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--bs-body-color);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: var(--bs-body-bg);
+  background-image: var(--bs-form-select-bg-img),
+    var(--bs-form-select-bg-icon, none);
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 16px 12px;
+  border: var(--bs-border-width) solid var(--bs-border-color);
+  border-radius: var(--bs-border-radius);
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  font-size: 13px;
+  font-weight: 500;
+}
+label {
+  margin-top: 10px;
+}
+.fs {
+  font-size: 13px;
+}
+.privacyText {
+  color: #a5a5a3;
+  text-decoration: none;
+  font-size: 12px;
+  margin-top: 20px;
+}
+.privacyText a {
+  color: #a5a5a3;
+}

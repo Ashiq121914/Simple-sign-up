@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- google font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="mx-auto sign-up-section rounded">
+        <div class="d-flex align-items-center rounded">
+          <!-- inputs section start -->
+          <div class="left-side">
+            <div class="d-flex">
+              <h1 class="fw-bold relative">Sign Up</h1>
+              <div class="animation-dot"></div>
+            </div>
+            <p class="fw-bold">
+              Already Have an Account? <a class="log-in" href="#">Log in</a>
+            </p>
+
+            <label class="fw-bold mt-4" for="full-name">Full Name</label>
+            <input
+              type="text"
+              name="full-name"
+              class="form-control border-color"
+              id="full-name"
+            />
+
+            <select
+              class="form-select border border-0 mt-1"
+              aria-label="Default select example"
+            >
+              <option>Country</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+
+            <label class="fw-bold mt-4" for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id=""
+              class="form-control border-color"
+            />
+
+            <label class="fw-bold mt-4" for="pass">Password</label>
+            <input
+              type="password"
+              name="pass"
+              id=""
+              class="form-control border-color"
+            />
+
+            <div class="mb-3 mt-4 form-check">
+              <input
+                type="checkbox"
+                name="checkbox"
+                id="checkbox"
+                class="form-check-input"
+              />
+              <label class="mt-0 fw-bold fs" for="checkbox"
+                >Receive Email Notification</label
+              >
+            </div>
+
+            <button class="btn mt-3 w-100 btn-bg">Submit</button>
+
+            <p class="privacyText">
+              By Signing up you agree to out <br />
+              <a href="#">Privacy policy</a> & <a href="#">Terms of Service</a>
+            </p>
+          </div>
+          <!-- input section end -->
+
+          <!-- image column start -->
+          <div class="right-side">
+            <div class="w-100">
+              <img
+                class="w-100 img-fluid img-size"
+                src="./img/what-is-fiverr-1200x1500.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <!-- image column end -->
+        </div>
+      </div>
+    </div>
+    <!-- bootstrap js link -->
+    <script src="./js/bootstrap.bundle.js"></script>
+  </body>
+</html>
